@@ -79,3 +79,6 @@ Open your web browser and go to http://localhost:3001 to view the dashboard.
 - Interacting with Charts: Hover over or click on chart elements to view detailed data.
 - Refreshing Data: The data can be refreshed manually by reloading the page.
 ## <a name="screenshots">🔗 Screenshots</a>
+
+![image](https://github.com/user-attachments/assets/bd9abc1d-bbc2-4403-9e5e-70a9eae5c280)
+
