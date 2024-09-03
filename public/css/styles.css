@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2196F3;
+}
+
+/* Table Section */
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.dashboard-section {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Chart Section */
+.chart-container-horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart-container {
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    max-width: 400px;
+    height: 300px;  /* Sufficient height for chart */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.chart-container h3 {
+    margin-bottom: 10px;
+    color: #2196F3;
+}
+
+canvas {
+    max-width: 100%;
+    width: 100%;
+    height: auto;  /* Allow auto height based on aspect ratio */
+}
+
+/* Table Styles */
+table {
+    margin: 0 auto 20px auto;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+thead th {
+    background-color: #2196F3;
+    color: white;
+}

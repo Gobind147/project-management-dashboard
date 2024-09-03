@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management Dashboard - Program Teams</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Project Management Dashboard - Program Teams</h1>
+
+    <!-- Tables Section -->
+    <div class="dashboard-container">
+        <div class="dashboard-section">
+            <h2>Program Alpha Data</h2>
+            <table id="programAlpha-table">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Engineer</th>
+                        <th colspan="3">In Progress</th>
+                        <th rowspan="2">Completed</th>
+                        <th rowspan="2">Total</th>
+                    </tr>
+                    <tr>
+                        <th>NCR</th>
+                        <th>Demand Issue</th>
+                        <th>Internal Check + SDR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add rows here -->
+                </tbody>
+            </table>
+        </div>
+        <div class="dashboard-section">
+            <h2>Program Beta Data</h2>
+            <table id="programBeta-table">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Engineer</th>
+                        <th colspan="3">In Progress</th>
+                        <th rowspan="2">Completed</th>
+                        <th rowspan="2">Total</th>
+                    </tr>
+                    <tr>
+                        <th>NCR</th>
+                        <th>Demand Issue</th>
+                        <th>Internal Check + SDR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add rows here -->
+                </tbody>
+            </table>
+        </div>
+        <div class="dashboard-section">
+            <h2>Total Summary</h2>
+            <table id="total-table">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Engineer</th>
+                        <th colspan="3">In Progress</th>
+                        <th rowspan="2">Completed</th>
+                        <th rowspan="2">Total</th>
+                    </tr>
+                    <tr>
+                        <th>NCR</th>
+                        <th>Demand Issue</th>
+                        <th>Internal Check + SDR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add rows here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Charts Section -->
+    <div class="chart-container-horizontal">
+        <div class="chart-container">
+            <h2>Project Status Overview</h2>
+            <canvas id="pieChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Issues Summary</h2>
+            <canvas id="totalChart"></canvas>
+        </div>
+        <div class="chart-container">
+            <h2>Project Cost</h2>
+            <canvas id="costChart"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
