@@ -6,12 +6,14 @@
     <img src="https://img.shields.io/badge/-Node.js-black?style=for-the-badge&logoColor=white&logo=node.js&color=339933" alt="nodejs" />
     <img src="https://img.shields.io/badge/-Express.js-black?style=for-the-badge&logoColor=white&logo=express&color=000000" alt="expressjs" />
     <img src="https://img.shields.io/badge/-Chart.js-black?style=for-the-badge&logoColor=white&logo=chart.js&color=FF6384" alt="chartjs" />
+    <img src="https://img.shields.io/badge/-Chokidar-black?style=for-the-badge&logoColor=white&color=00BFFF" alt="chokidar" />
+    <img src="https://img.shields.io/badge/-XLSX-black?style=for-the-badge&logoColor=white&color=009688" alt="xlsx" />
     <img src="https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logoColor=white&logo=html5&color=E34F26" alt="html5" />
     <img src="https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logoColor=white&logo=css3&color=1572B6" alt="css3" />
   </div>
 
   <div align="center">
-    A modern web dashboard for managing projects, displaying various metrics using tables and charts. The project is built using Node.js, Express.js, and Chart.js for the backend and data visualization, with HTML and CSS for the front-end interface.
+    A modern web dashboard for managing projects, displaying various metrics using tables and charts. The project is built using Node.js, Express.js, and Chart.js for the backend and data visualization, with HTML and CSS for the front-end interface. The application leverages `chokidar` for file watching and `xlsx` for handling Excel data processing.
   </div>
 </div>
 
@@ -27,7 +29,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-This project is a project management dashboard that provides a visual overview of key metrics related to various projects. It is designed to help teams track progress, monitor issues, and assess project costs through interactive charts and tables.
+This project is a project management dashboard that provides a visual overview of key metrics related to various projects. It is designed to help teams track progress, monitor issues, and assess project costs through interactive charts and tables. The application uses `chokidar` to watch for file changes and automatically update the data, and `xlsx` to read and process Excel files containing project data.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -35,6 +37,8 @@ This project is a project management dashboard that provides a visual overview o
 - Node.js
 - Express.js
 - Chart.js
+- Chokidar
+- XLSX
 - HTML5
 - CSS3
 
@@ -47,6 +51,10 @@ This project is a project management dashboard that provides a visual overview o
 👉 **Dynamic Data**: The dashboard dynamically updates based on the underlying data, providing real-time insights.
 
 👉 **Project Management Overview**: A comprehensive overview of all active projects, including their current status and key metrics.
+
+👉 **Automated File Watching**: Uses `chokidar` to watch for changes in the Excel file and automatically updates the dashboard.
+
+👉 **Excel Data Processing**: Uses `xlsx` to read and process Excel files, making it easy to handle large datasets.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -66,6 +74,7 @@ Make sure you have the following installed on your machine:
 git clone https://github.com/Gobind147/Project-Management-Dashboard.git
 cd Project-Management-Dashboard
 npm install
+
 ```
 **Starting the Server**
 ```bash
