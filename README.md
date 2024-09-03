@@ -82,3 +82,9 @@ Open your web browser and go to http://localhost:3001 to view the dashboard.
 
 ![image](https://github.com/user-attachments/assets/bd9abc1d-bbc2-4403-9e5e-70a9eae5c280)
 
+## Data Table - Program Alpha
+![image](https://github.com/user-attachments/assets/f54aaa71-9273-46c4-ab51-f29fa4c22660)
+
+## Data Table - Program Beta
+![image](https://github.com/user-attachments/assets/a85ba544-a69c-4272-840f-fa39d6dc7743)
+
