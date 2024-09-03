@@ -1,15 +1,20 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
     color: #333;
     margin: 0;
-    padding: 10px;
+    padding: 0;
 }
 
 h1 {
     text-align: center;
-    color: #4CAF50;
-    margin-bottom: 20px;
+    color: #ffffff;
+    background: linear-gradient(90deg, #4CAF50, #2196F3);
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -24,6 +29,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    flex-wrap: wrap; /* Allows wrapping when screen is narrow */
 }
 
 .dashboard-section {
@@ -33,12 +39,15 @@ h2 {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: calc(33.333% - 10px); /* Three sections per row */
 }
 
 /* Chart Section */
 .chart-container-horizontal {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap; /* Allows wrapping when screen is narrow */
 }
 
 .chart-container {
@@ -47,9 +56,9 @@ h2 {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 0 10px;
-    max-width: 400px;
-    height: 300px;  /* Sufficient height for chart */
+    margin: 0 5px;
+    max-width: calc(33.333% - 10px); /* Three charts per row */
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,7 +74,7 @@ h2 {
 canvas {
     max-width: 100%;
     width: 100%;
-    height: auto;  /* Allow auto height based on aspect ratio */
+    height: auto;
 }
 
 /* Table Styles */
